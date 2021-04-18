@@ -43,7 +43,6 @@ class Scroll{
 
     style(){
         this.DOM.main.style.position = "fixed";
-        this.DOM.main.style.width = this.DOM.main.style.height = "100%";
         this.DOM.main.style.top = this.DOM.main.style.left = 0;
         this.DOM.main.style.overflow = "hidden";
     }
