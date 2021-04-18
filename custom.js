@@ -7,7 +7,7 @@ const lerp = (a, b, n) => (1 - n) * a + n * b
 
 class Scroll{
     constructor(){
-        this.DOM = { main: document.querySelector("main") };
+        this.DOM = { main: document.querySelector(".main") };
         // the scrollable element
         // we translate this element when scrolling (y-axis)
         this.DOM.scrollable = this.DOM.main.querySelector("div[data-scroll]");
