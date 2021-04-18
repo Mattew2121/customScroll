@@ -5,7 +5,7 @@ const lerp = (a, b, n) => (1 - n) * a + n * b
 
 
 
-export default class Scroll{
+class Scroll{
     constructor(){
         this.DOM = { main: document.querySelector("main") };
         // the scrollable element
